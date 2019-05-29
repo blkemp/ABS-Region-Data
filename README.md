@@ -10,3 +10,13 @@ Note all files were originally ".xls" format, and have had incredibly minor alte
 * Saving each document as .csv
 
 All files are based on the ASGS (Australian Statistical Geography Standard) location methodology. There is potential of further exploration based on documents located here.
+
+# System Requirements:
+All exploration done on this dataset is currently being undertaking using Jupyter Notebooks using Python 3.7 with the below modules (list will surely expand over time):
+* NumPy
+* Pandas
+* MatPlotLib
+* SKLearn
+* Seaborn
+* os
+* TextWrap
