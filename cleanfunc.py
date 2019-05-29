@@ -13,6 +13,11 @@ import eli5
 
 nb_path = os.getcwd()
 nb_path
+def clean_xls(file):
+    df = pd.read_excel(file,skiprows=5, header = [0, 1, 2, 3], skipfooter = 6)
+    unnamed_str = 'Unnamed: [0-9]+_level_[0-9]'
+    df.columns = [re.sub(unnamed_str, '', ' '.join(col)).strip() for col in df.columns.values]
+    return df
 
 def removeaggregation(df):
     df.drop(df[df['CODE'].astype(str).map(len) <= 8].index, inplace=True)
