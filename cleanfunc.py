@@ -10,6 +10,9 @@ from textwrap import wrap
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.ensemble import RandomForestRegressor
 import eli5
+import re
+import geocoder
+
 
 nb_path = os.getcwd()
 nb_path
@@ -96,7 +99,7 @@ def clean_data(df, fill_mean_subset = None):
     
     df.drop(drop_cols, axis = 1, inplace=True)
     
-    # Drop wmpty columns
+    # Drop empty columns
     df = df.dropna(how = 'all', axis = 1)
 
     
@@ -140,3 +143,78 @@ def clean_data(df, fill_mean_subset = None):
     
     return df
     
+def buildlatlng(df):
+    '''
+    buildlatlng
+    A function to build a database of latitudes and longitudes for the australian census regions
+    Inputs - df: a dataframe with index.levels[1] of the names of all the suburbs
+    Outputs - latlng: a dataframe with the corresponding latitudes and longitudes looked up from openstreetmaps
+    '''
+    addresses = df.index.levels[1].tolist()
+
+    for address in addresses:
+        #I found OSM struggles with the word region, so best to remove
+        address = re.sub('Region', '', address)
+        
+        #Try a variety of different spellings of the word, check that they exist and are in Australia then append to the lat/long lists and continue to next cycle once one works
+        try:
+            callstr = address
+            print(callstr)
+            g = geocoder.osm(callstr)
+            assert g.country == 'Australia'
+            lat.append(g.latlng[0])
+            lng.append(g.latlng[1])
+            print(g)
+            continue
+        except:
+            pass
+        
+        try:
+            callstr = address.split('-', 1)[0]+' Australia'
+            print(callstr)
+            g = geocoder.osm(callstr)
+            assert g.country == 'Australia'
+            lat.append(g.latlng[0])
+            lng.append(g.latlng[1])
+            print(g)
+            continue
+        except:
+            pass
+        
+        try:
+            callstr = address.split(' ', 1)[0]+' Australia'
+            print(callstr)
+            g = geocoder.osm(callstr)
+            assert g.country == 'Australia'
+            lat.append(g.latlng[0])
+            lng.append(g.latlng[1])
+            print(g)
+            continue
+        except:
+            pass
+        
+        try:
+            callstr = address.split('-', 1)[0]
+            print(callstr)
+            g = geocoder.osm(callstr)
+            assert g.country == 'Australia'
+            lat.append(g.latlng[0])
+            lng.append(g.latlng[1])
+            print(g)
+            continue
+        except:
+            pass
+        
+        
+        lat.append(None)
+        lng.append(None)
+
+    #because of multiple spelling of Woolaware/Wooloware we have a single error to fix
+    callstr = 'woolooware'
+    print(callstr)
+    g = geocoder.osm(callstr)
+    lat[550] = g.latlng[0]
+    lng[550] = g.latlng[1]
+
+    latlng = pd.DataFrame({'lat':lat, 'long':lng}, index = X.index.levels[1].tolist())
+    return latlng
