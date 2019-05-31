@@ -23,7 +23,7 @@ def clean_xls(file):
     df.columns = [re.sub(unnamed_str, '', ' '.join(col)).strip() for col in df.columns.values]
     return df
 
-def removeaggregation(df):
+def remove_aggregation(df):
     df.drop(df[df['CODE'].astype(str).map(len) <= 8].index, inplace=True)
     return df
 
@@ -43,11 +43,13 @@ def load_merge_clean(nb_path = os.getcwd()):
     # loop through the remainder of CSVs and load them in
     for file in range(1,len(files)):
         df_temp = pd.read_csv('{}\CSV\{}'.format(nb_path, files[file]), na_values='-', thousands=',')
+        df_temp = remove_aggregation(df_temp)
         df = pd.merge(df, df_temp, how='inner', left_on=['CODE','YEAR','LABEL'], right_on=['CODE','YEAR','LABEL'])
 
     df.set_index(['CODE', 'LABEL', 'YEAR'], inplace=True)
 
     df = clean_data(df, 'YEAR')
+    
     df = df.xs(2016, level = 'YEAR')
     return df
 
@@ -149,7 +151,8 @@ def buildlatlng(df):
     Outputs - latlng: a dataframe with the corresponding latitudes and longitudes looked up from openstreetmaps
     '''
     addresses = df.index.levels[1].tolist()
-
+    lat = []
+    lng = []
     for address in addresses:
         #I found OSM struggles with the word region, so best to remove
         address = re.sub('Region', '', address)
