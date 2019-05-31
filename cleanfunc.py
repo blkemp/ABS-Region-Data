@@ -51,6 +51,12 @@ def load_merge_clean(nb_path = os.getcwd()):
     df = clean_data(df, 'YEAR')
     
     df = df.xs(2016, level = 'YEAR')
+
+    latlng = pd.read_csv('latlng.csv')
+
+    df = pd.merge(df, latlng, how = 'left', left_on=['LABEL'], right_on = ['LABEL'])
+    df = df.set_index(['LABEL'])
+
     return df
 
 
