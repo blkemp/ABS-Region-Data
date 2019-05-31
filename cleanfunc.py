@@ -16,6 +16,7 @@ import geocoder
 
 nb_path = os.getcwd()
 nb_path
+
 def clean_xls(file):
     df = pd.read_excel(file,skiprows=5, header = [0, 1, 2, 3], skipfooter = 6)
     unnamed_str = 'Unnamed: [0-9]+_level_[0-9]'
@@ -27,25 +28,22 @@ def removeaggregation(df):
     return df
 
 def load_merge_clean(nb_path = os.getcwd()):
-    df_income = pd.read_csv('{}\CSV\Income_ASGS_Final.csv'.format(nb_path), na_values='-', thousands=',')
-    df_pop = pd.read_csv('{}\CSV\Population and People_ASGS.csv'.format(nb_path), na_values='-', thousands=',')
-    df_solar = pd.read_csv('{}\CSV\Land and Environment_ASGS.csv'.format(nb_path), na_values='-', thousands=',')
-    df_fam = pd.read_csv('{}\CSV\Family and Community_ASGS.csv'.format(nb_path), na_values='-', thousands=',')
-    
-    df_list = [df_income, df_solar, df_fam, df_pop]
-    df_income, df_solar, df_fam, df_pop = [df.pipe(removeaggregation) for df in df_list]
+    # Create list of all files in CSV directory
+    files = []
+    for (dirpath, dirnames, filenames) in os.walk('{}\CSV'.format(nb_path)):
+        files.extend(filenames)
+        break
+    for f in files:
+        if f[-4:] != '.csv':
+            files.remove(f)
 
-    df = pd.merge(df_income, df_solar, how='inner', left_on=['CODE','YEAR','LABEL'], right_on=['CODE','YEAR','LABEL'])
-
-    cols_to_use = df_pop.columns.difference(df.columns).tolist()
-    cols_to_use.extend(['CODE','YEAR','LABEL'])
-
-    df = pd.merge(df, df_pop[cols_to_use], how='inner', left_on=['CODE','YEAR','LABEL'], right_on=['CODE','YEAR','LABEL'])
-
-    cols_to_use = df_fam.columns.difference(df.columns).tolist()
-    cols_to_use.extend(['CODE','YEAR','LABEL'])
-
-    df = pd.merge(df, df_fam, how='inner', left_on=['CODE','YEAR','LABEL'], right_on=['CODE','YEAR','LABEL'])
+    # Read in csv files and merge into 1 dataframe
+    # Initialise dataframe with first csv file
+    df = pd.read_csv('{}\CSV\{}'.format(nb_path, files[0]), na_values='-', thousands=',')
+    # loop through the remainder of CSVs and load them in
+    for file in range(1,len(files)):
+        df_temp = pd.read_csv('{}\CSV\{}'.format(nb_path, files[file]), na_values='-', thousands=',')
+        df = pd.merge(df, df_temp, how='inner', left_on=['CODE','YEAR','LABEL'], right_on=['CODE','YEAR','LABEL'])
 
     df.set_index(['CODE', 'LABEL', 'YEAR'], inplace=True)
 
