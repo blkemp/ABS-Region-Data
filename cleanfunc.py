@@ -16,7 +16,13 @@ import geocoder
 
 nb_path = os.getcwd()
 nb_path
-
+def sort_series_abs(S):
+    'Takes a pandas Series object and returns the series sorted by absolute value'
+    temp_df = pd.DataFrame(S)
+    temp_df['abs'] = temp_df.iloc[:,0].abs()
+    temp_df.sort_values('abs', ascending = False, inplace = True)
+    return temp_df.iloc[:,0]
+    
 def clean_xls(file):
     df = pd.read_excel(file,skiprows=5, header = [0, 1, 2, 3], skipfooter = 6)
     unnamed_str = 'Unnamed: [0-9]+_level_[0-9]+'
