@@ -1,21 +1,21 @@
-,lat,long
+LABEL,lat,long
 Acacia Gardens,-33.7324595,150.9125321
-Adamstown - Kotara,-32.94331125,151.711626200275
-Albion Park - Macquarie Pass,-34.58236155,150.77594322797
+Adamstown - Kotara,-32.94331125,151.7116262
+Albion Park - Macquarie Pass,-34.58236155,150.7759432
 Albion Park Rail,-34.5625775,150.7978168
-Albury - East,-36.0148062,146.982171477454
-Albury - North,-36.0148062,146.982171477454
-Albury - South,-36.0148062,146.982171477454
-Albury Region,-36.0148062,146.982171477454
+Albury - East,-36.0148062,146.9821715
+Albury - North,-36.0148062,146.9821715
+Albury - South,-36.0148062,146.9821715
+Albury Region,-36.0148062,146.9821715
 Anna Bay,-32.7779061,152.0890203
-Armidale,-30.41250495,151.940139839798
-Armidale Region - North,-30.41250495,151.940139839798
-Armidale Region - South,-30.41250495,151.940139839798
+Armidale,-30.41250495,151.9401398
+Armidale Region - North,-30.41250495,151.9401398
+Armidale Region - South,-30.41250495,151.9401398
 Arncliffe - Bardwell Valley,-33.9367831,151.1470408
 Ashcroft - Busby - Miller,-33.915,150.9011111
 Ashfield,-33.8894781,151.1274125
-Asquith - Mount Colah,-33.6826776,151.115928278278
-Auburn - Central,-33.8500607,151.031790431686
+Asquith - Mount Colah,-33.6826776,151.1159283
+Auburn - Central,-33.8500607,151.0317904
 Auburn - North,-33.849302,151.0328106
 Auburn - South,-34.026398,138.6859174
 Austral - Greendale,-41.90952,145.34635
@@ -27,7 +27,7 @@ Balgownie - Fairy Meadow,-34.395175,150.8964432
 Ballina,-28.8634654,153.5619701
 Ballina Region,-28.8634654,153.5619701
 Balmain,-33.8583992,151.1807353
-Bangalow,-28.68054775,153.520773435887
+Bangalow,-28.68054775,153.5207734
 Bankstown - North,-33.9171897,151.0335881
 Bankstown - South,-33.9171897,151.0335881
 Banora Point,-28.2220841,153.5370661
@@ -36,19 +36,19 @@ Bass Hill - Georges Hall,-38.48267,145.54511
 Bateau Bay - Killarney Vale,-33.3816667,151.4844444
 Batemans Bay,-35.7072183,150.178289
 Batemans Bay - South,-35.7072183,150.178289
-Bathurst,-33.4747071,149.64131965114
-Bathurst - East,-33.4747071,149.64131965114
-Bathurst Region,-33.4747071,149.64131965114
+Bathurst,-33.4747071,149.6413197
+Bathurst - East,-33.4747071,149.6413197
+Bathurst Region,-33.4747071,149.6413197
 Baulkham Hills (East),-33.7611198,150.9914041
 Baulkham Hills (West) - Bella Vista,-33.7416936,150.9547183
 Bayview - Elanora Heights,-41.30481,148.27061
-Beacon Hill - Narraweena,-33.7450531,151.264526080916
+Beacon Hill - Narraweena,-33.7450531,151.2645261
 Bega - Tathra,-36.7284498,149.9850271
 Bega-Eden Hinterland,-36.6780983,149.8408283
-Bellingen,-30.37399135,152.719209956678
-Belmont - Bennetts Green,-31.9545783,115.942628890964
+Bellingen,-30.37399135,152.71921
+Belmont - Bennetts Green,-31.9545783,115.9426289
 Belmont South - Blacksmiths,-33.0733333,151.6566667
-Belmore - Belfield,-33.9100096,151.085323607839
+Belmore - Belfield,-33.9100096,151.0853236
 Berala,-33.8753943,151.0343253
 Beresfield - Hexham,-32.8007131,151.6576605
 Berkeley - Lake Heights - Cringila,-34.4774294,150.8448548
@@ -60,16 +60,16 @@ Bilpin - Colo - St Albans,-33.496492,150.5288182
 Blackheath - Megalong Valley,-33.6757083,150.2683104
 Blacktown (East) - Kings Park,-33.7433333,150.9086111
 Blacktown (North) - Marayong,-33.7491667,150.8919444
-Blacktown (South),-33.7401885,150.864835532895
-Blacktown (West),-33.7401885,150.864835532895
+Blacktown (South),-33.7401885,150.8648355
+Blacktown (West),-33.7401885,150.8648355
 Blaxland - Warrimoo - Lapstone,-33.7460755,150.6092697
-Blayney,-33.61663685,149.164056498771
+Blayney,-33.61663685,149.1640565
 Blue Haven - San Remo,-33.2108061,151.5041066
-Blue Mountains - North,-33.63511425,150.437503664225
+Blue Mountains - North,-33.63511425,150.4375037
 Bolton Point - Teralba,-33.0025,151.615
 Bombala,-36.9113175,149.2389375
 Bondi - Tamarama - Bronte,-33.8930556,151.2633333
-Bondi Beach - North Bondi,-33.8923133,151.275313737102
+Bondi Beach - North Bondi,-33.8923133,151.2753137
 Bondi Junction - Waverly,-33.8930034,151.2501228
 Bonnells Bay - Silverwater,-33.1078506,151.5291695
 Bonnyrigg Heights - Bonnyrigg,-33.8912101,150.8695795
@@ -103,32 +103,32 @@ Caringbah South,-34.0554491,151.1205937
 Carlingford,-33.7744947,151.0475215
 Casino,-28.8631616,153.048155
 Casino Region,-28.8631616,153.048155
-Castle Hill - Central,-33.73148025,151.007827316278
-Castle Hill - East,-33.73148025,151.007827316278
-Castle Hill - North,-33.73148025,151.007827316278
+Castle Hill - Central,-33.73148025,151.0078273
+Castle Hill - East,-33.73148025,151.0078273
+Castle Hill - North,-33.73148025,151.0078273
 Castle Hill - South,-35.68738,136.93263
-Castle Hill - West,-33.73148025,151.007827316278
+Castle Hill - West,-33.73148025,151.0078273
 Castlereagh - Cranebrook,-33.7048583,150.70641
 Casula,-33.9522222,150.8952778
 Cecil Hills,-33.89,150.8511111
-Cessnock,-32.89403765,151.301463938301
-Cessnock Region,-32.89403765,151.301463938301
+Cessnock,-32.89403765,151.3014639
+Cessnock Region,-32.89403765,151.3014639
 Charlestown - Dudley,-32.9715931,151.6992737
-Chatswood (East) - Artarmon,-33.80596105,151.180285594447
+Chatswood (East) - Artarmon,-33.80596105,151.1802856
 Chatswood (West) - Lane Cove North,-33.7960029,151.1597081
-Cherrybrook,-33.73669565,151.031980664288
-Chester Hill - Sefton,-33.88937275,151.009555410983
-Chipping Norton - Moorebank,-33.9259093,150.958723079523
+Cherrybrook,-33.73669565,151.0319807
+Chester Hill - Sefton,-33.88937275,151.0095554
+Chipping Norton - Moorebank,-33.9259093,150.9587231
 Chittaway Bay - Tumbi Umbi,-33.326936,151.4367385
 Chullora,-33.8925,151.0477778
 Claymore - Eagle Vale - Raby,-34.0469444,150.81
 Cobar,-31.4983333,145.8344444
 Cobbitty - Leppington,-34.0104185,150.6922716
-Coffs Harbour - North,-30.1732797,152.998587582102
-Coffs Harbour - South,-30.1732797,152.998587582102
+Coffs Harbour - North,-30.1732797,152.9985876
+Coffs Harbour - South,-30.1732797,152.9985876
 Colyton - Oxley Park,-33.7775395,150.8016365
-Concord - Mortlake - Cabarita,-33.8515244,151.108067390868
-Concord West - North Strathfield,-33.85415765,151.092145511964
+Concord - Mortlake - Cabarita,-33.8515244,151.1080674
+Concord West - North Strathfield,-33.85415765,151.0921455
 Condell Park,-33.9227852,151.0113144
 Condobolin,-33.0880805,147.1479606
 Coogee - Clovelly,-33.9166851,151.2488008
@@ -141,9 +141,9 @@ Coramba - Nana Glen - Bucca,-30.1453361,153.0628935
 Corowa,-35.9995747,146.3906094
 Corowa Region,-35.9995747,146.3906094
 Corrimal - Tarrawanna - Bellambi,-34.3726297,150.8881576
-Cowra,-33.81112855,148.693565041787
-Cowra Region,-33.81112855,148.693565041787
-Cremorne - Cammeray,-33.82755885,151.217136269749
+Cowra,-33.81112855,148.693565
+Cowra Region,-33.81112855,148.693565
+Cremorne - Cammeray,-33.82755885,151.2171363
 Cromer,-33.7385227,151.2762995
 Cronulla - Kurnell - Bundeena,-34.0575259,151.1523851
 Crows Nest - Waverton,-33.8380705,151.1976558
@@ -166,7 +166,7 @@ Dubbo - South,-32.2478964,148.6026502
 Dubbo - West,-32.2478964,148.6026502
 Dubbo Region,-32.2478964,148.6026502
 Dulwich Hill - Lewisham,-33.9023012,151.1421824
-Dungog,-32.3472009,151.626243854405
+Dungog,-32.3472009,151.6262439
 Dural - Kenthurst - Wisemans Ferry,-33.6876398,151.0267199
 Eastwood - Denistone,-33.792947,151.0885865
 Eden,-37.0640494,149.9035118
@@ -181,24 +181,24 @@ Ermington - Rydalmere,-33.8176739,151.0438691
 Erskine Park,-33.8086111,150.8013889
 Erskineville - Alexandria,-33.906331,151.1866643
 Ettrema - Sassafras - Budawang,-34.8813889,150.3044444
-Eurobodalla Hinterland,-35.93293665,149.924400659063
+Eurobodalla Hinterland,-35.93293665,149.9244007
 Evans Head,-29.1174093,153.4312097
-Fairfield,-33.86744035,150.88931036078
+Fairfield,-33.86744035,150.8893104
 Fairfield - East,-33.8747423,150.9721298
 Fairfield - West,-33.8689308,150.9243383
 Far West,-30.3321766,147.4174683
 Figtree - Keiraville,-34.4307377,150.8487279
 Five Dock - Abbotsford,-33.8486333,151.1729519
-Forbes,-33.37877205,147.953438813101
-Forestville - Killarney Heights,-33.76474215,151.208954823834
+Forbes,-33.37877205,147.9534388
+Forestville - Killarney Heights,-33.76474215,151.2089548
 Forster,-32.1820852,152.5131155
-Forster-Tuncurry Region,-32.15143805,152.482705537567
+Forster-Tuncurry Region,-32.15143805,152.4827055
 Frenchs Forest - Belrose,-33.7387359,151.2106749
-Freshwater - Brookvale,-33.76802455,151.279794984032
+Freshwater - Brookvale,-33.76802455,151.279795
 Galston - Laughtondale,-33.6467002,151.0642498
-Gilgandra,-31.63258185,148.704448867143
-Gladesville - Huntleys Point,-33.84279445,151.148481503228
-Glebe - Forest Lodge,-33.8800861,151.177273734207
+Gilgandra,-31.63258185,148.7044489
+Gladesville - Huntleys Point,-33.84279445,151.1484815
+Glebe - Forest Lodge,-33.8800861,151.1772737
 Glen Innes,-29.7379146,151.7356326
 Glendale - Cardiff - Hillsborough,-32.9288889,151.6505556
 Glendenning - Dean Park,-33.7483333,150.8511111
@@ -217,21 +217,21 @@ Grafton Region,-29.69125,152.9333435
 Granville - Clyde,-33.8359746,151.017066
 Green Valley,-33.9024601,150.8674187
 Greenacre - Mount Lewis,-33.9156089,151.0499433
-Greenfield Park - Prairiewood,-33.87162495,150.890135643001
+Greenfield Park - Prairiewood,-33.87162495,150.8901356
 Grenfell,-33.8967902,148.160764
 Greystanes - Pemulwuy,-33.8237686,150.9326015
 Griffith (NSW),-34.2870772,146.0551022
 Griffith Region,-34.2870772,146.0551022
 Guildford - South Granville,-33.857368,151.0068591
 Guildford West - Merrylands West,-33.8483084,150.9657421
-Gundagai,-34.80940095,148.108814106774
-Gunnedah,-31.02375935,150.203652729306
-Gunnedah Region,-31.02375935,150.203652729306
+Gundagai,-34.80940095,148.1088141
+Gunnedah,-31.02375935,150.2036527
+Gunnedah Region,-31.02375935,150.2036527
 Gymea - Grays Point,-34.0341447,151.085653
 Haberfield - Summer Hill,-33.8794325,151.1391605
 Hamilton - Broadmeadow,-32.9231318,151.7344455
 Hassall Grove - Plumpton,-33.7316667,150.8344444
-Hay,-34.1573005,144.890392976872
+Hay,-34.1573005,144.890393
 Heathcote - Waterfall,-34.0688775,151.0373446
 Helensburgh,-34.1908519,150.9822187
 Hill Top - Colo Vale,-34.4004648,150.4839022
@@ -239,34 +239,34 @@ Hinchinbrook,-33.9159661,150.8645957
 Holsworthy - Wattle Grove,-33.9597307,150.9502719
 Homebush,-33.860451,151.0806118
 Homebush Bay - Silverwater,-33.8306908,151.0805789
-Hornsby - East,-33.5724083,151.131775497548
-Hornsby - West,-33.5724083,151.131775497548
+Hornsby - East,-33.5724083,151.1317755
+Hornsby - West,-33.5724083,151.1317755
 Horsley - Kembla Grange,-34.470167,150.8175203
 Horsley Park - Kemps Creek,-33.8387723,150.8484629
 Hoxton Park - Carnes Hill - Horningsea Park,-33.9294022,150.8560164
 Hunters Hill - Woolwich,-33.8401988,151.1710614
 Hurstville,-33.960707,151.1003611
 Huskisson - Vincentia,-35.0384877,150.670708
-Illawarra Catchment Reserve,-34.46145045,150.790407379754
+Illawarra Catchment Reserve,-34.46145045,150.7904074
 Illawong - Alfords Point,-33.9981649,151.0260963
 Ingleburn - Denham Court,-33.9688801,150.8142247
-Inverell,-29.31495375,151.114637759244
-Inverell Region - East,-29.31495375,151.114637759244
-Inverell Region - West,-29.31495375,151.114637759244
+Inverell,-29.31495375,151.1146378
+Inverell Region - East,-29.31495375,151.1146378
+Inverell Region - West,-29.31495375,151.1146378
 Jamisontown - South Penrith,-33.7679769,150.674815
 Jilliby - Yarramalong,-33.2483333,151.3844444
 Jindabyne - Berridale,-36.37088,148.8213304
-Junee,-34.81502565,147.672674991301
+Junee,-34.81502565,147.672675
 Karabar,-35.3759426,149.2328718
 Kariong,-33.44,151.3011111
 Katoomba - Leura,-33.7118817,150.3304809
-Kellyville,-33.71308785,150.935124763154
+Kellyville,-33.71308785,150.9351248
 Kempsey,-31.0798092,152.842289
 Kempsey Region,-31.0798092,152.842289
 Kensington (NSW),-33.9117191,151.2195058
-Kiama,-34.6958202,150.795912313851
+Kiama,-34.6958202,150.7959123
 Kiama Downs - Minnamurra,-34.633732,150.8592716
-Kiama Hinterland - Gerringong,-34.6958202,150.795912313851
+Kiama Hinterland - Gerringong,-34.6958202,150.7959123
 Kincumber - Picketts Valley,-33.465,151.3927778
 Kingscliff - Fingal Head,-28.2566667,153.5761111
 Kingsford,-33.9215922,151.2272307
@@ -278,16 +278,16 @@ Kogarah Bay - Carlton - Allawah,-33.9816792,151.1239702
 Korora - Emerald Beach,-30.243685,153.1457796
 Kurrajong Heights - Ebenezer,-33.5236086,150.626953
 Kurri Kurri - Abermain,-32.8308446,151.4809962
-Kyogle,-28.64629175,152.744424414749
+Kyogle,-28.64629175,152.7444244
 Lake Munmorah - Mannering Park,-33.1936111,151.5719444
 Lakemba,-33.9196311,151.0749236
 Lalor Park - Kings Langley,-33.7649937,150.9288833
 Lambton - New Lambton,-32.9277778,151.7108333
 Lane Cove - Greenwich,-33.8300104,151.1855621
-Laurieton - Bonny Hills,-31.64275675,152.796918708405
+Laurieton - Bonny Hills,-31.64275675,152.7969187
 Lavington,-36.0507987,146.9336621
 Lawson - Hazelbrook - Linden,-33.7194479,150.4315623
-Leeton,-34.52975335,146.293258019986
+Leeton,-34.52975335,146.293258
 Leichhardt - Annandale,-33.8819328,151.155867
 Lemon Tree Passage - Tanilba Bay,-32.7327199,152.0359761
 Lennox Head - Skennars Head,-28.8316667,153.5886111
@@ -295,23 +295,23 @@ Lethbridge Park - Tregear,-33.7386041,150.8014499
 Leumeah - Minto Heights,-34.0543113,150.8371354
 Lidcombe,-33.8630649,151.0456771
 Lilli Pilli - Port Hacking - Dolans Bay,-34.0680729,151.1159938
-Lilyfield - Rozelle,-33.8712685,151.171166033259
+Lilyfield - Rozelle,-33.8712685,151.171166
 Lindfield - Roseville,-33.7802907,151.1595848
-Lismore,-28.79363905,153.26708675123
-Lismore Region,-28.79363905,153.26708675123
-Lithgow,-33.3201229,150.195025427249
-Lithgow Region,-33.3201229,150.195025427249
+Lismore,-28.79363905,153.2670868
+Lismore Region,-28.79363905,153.2670868
+Lithgow,-33.3201229,150.1950254
+Lithgow Region,-33.3201229,150.1950254
 Liverpool,-33.9198252,150.92566
-Lord Howe Island,-31.5540166,159.085625626059
+Lord Howe Island,-31.5540166,159.0856256
 Lurnea - Cartwright,-33.9358333,150.8972222
-Macksville - Scotts Head,-30.7448291,152.997406763602
+Macksville - Scotts Head,-30.7448291,152.9974068
 Maclean - Yamba - Iluka,-29.4566667,153.2011111
 Macquarie Fields - Glenfield,-33.9904477,150.8849303
-Macquarie Park - Marsfield,-33.77072765,151.103801494267
-Maitland,-32.708177,151.526843733985
-Maitland - East,-32.708177,151.526843733985
-Maitland - North,-32.708177,151.526843733985
-Maitland - West,-32.708177,151.526843733985
+Macquarie Park - Marsfield,-33.77072765,151.1038015
+Maitland,-32.708177,151.5268437
+Maitland - East,-32.708177,151.5268437
+Maitland - North,-32.708177,151.5268437
+Maitland - West,-32.708177,151.5268437
 Malabar - La Perouse - Chifley,-33.9629779,151.2480171
 Manly - Fairlight,-33.79540935,151.2816049
 Manly Vale - Allambie Heights,-33.7830838,151.2659938
@@ -334,36 +334,36 @@ Monterey - Brighton-le-Sands - Kyeemagh,-31.8221213,149.748893
 Moree,-29.4617202,149.8407153
 Moree Region,-29.4617202,149.8407153
 Morisset - Cooranbong,-33.0758112,151.4539993
-Mortdale - Penshurst,-33.96662995,151.077502949575
+Mortdale - Penshurst,-33.96662995,151.0775029
 Moruya - Tuross Head,-35.9098127,150.0820002
 Mosman,-33.8301355,151.2447663
-Moss Vale - Berrima,-34.51591005,150.350308385307
+Moss Vale - Berrima,-34.51591005,150.3503084
 Mount Annan - Currans Hill,-34.0782799,150.7632296
 Mount Druitt - Whalan,-33.7705556,150.8205556
 Mount Hutton - Windale,-25.85,148.3333333
 Mudgee,-32.5980702,149.5886383
 Mudgee Region - East,-32.5980702,149.5886383
 Mudgee Region - West,-32.5980702,149.5886383
-Mulgoa - Luddenham - Orchard Hills,-33.81744545,150.691069872084
+Mulgoa - Luddenham - Orchard Hills,-33.81744545,150.6910699
 Mullumbimby,-28.5483333,153.5011111
 Murwillumbah,-28.3267617,153.3971541
 Murwillumbah Region,-28.3267617,153.3971541
-Muswellbrook,-32.4881159,150.516408048667
-Muswellbrook Region,-32.4881159,150.516408048667
+Muswellbrook,-32.4881159,150.516408
+Muswellbrook Region,-32.4881159,150.516408
 Nambucca Heads,-30.6449458,152.9924524
 Nambucca Heads Region,-30.6449458,152.9924524
 Narara,-33.3955556,151.3355556
 Narooma - Bermagui,-36.2190152,150.1317243
 Narrabeen - Collaroy,-33.7195919,151.2982884
-Narrabri,-30.3278407,149.557154183225
-Narrabri Region,-30.3278407,149.557154183225
-Narrandera,-34.5926463,146.700043833903
-Narromine,-32.2317016,147.952851737798
-Narwee - Beverly Hills,-33.9408291,151.074710877454
+Narrabri,-30.3278407,149.5571542
+Narrabri Region,-30.3278407,149.5571542
+Narrandera,-34.5926463,146.7000438
+Narromine,-32.2317016,147.9528517
+Narwee - Beverly Hills,-33.9408291,151.0747109
 Nelson Bay Peninsula,-32.7196367,152.1090416
 Neutral Bay - Kirribilli,-33.8342887,151.2182049
 Newcastle - Cooks Hill,-32.9316667,151.7677778
-Newcastle Port - Kooragang,-32.87850105,151.773514526885
+Newcastle Port - Kooragang,-32.87850105,151.7735145
 Newport - Bilgola,-33.6443165,151.324484
 Newtown - Camperdown - Darlington,-37.9986928,143.0512418
 Niagara Park - Lisarow,-33.3816667,151.3511111
@@ -378,38 +378,38 @@ Nowra,-34.8741198,150.6004709
 Nyngan - Warren,-31.5523045,147.2927515
 Oatlands - Dundas Valley,-42.3018682,147.3728654
 Oatley - Hurstville Grove,-33.9824727,151.0903358
-Oberon,-33.8455931,149.832616207351
+Oberon,-33.8455931,149.8326162
 Old Bar - Manning Point - Red Head,-31.965,152.5844444
-Orange,-33.32924175,149.10814660899
-Orange - North,-33.32924175,149.10814660899
-Orange Region,-33.32924175,149.10814660899
+Orange,-33.32924175,149.1081466
+Orange - North,-33.32924175,149.1081466
+Orange Region,-33.32924175,149.1081466
 Ourimbah - Fountaindale,-33.365,151.3677778
 Oyster Bay - Como - Jannali,-34.0032775,151.0812354
 Paddington - Moore Park,-33.8895965,151.233621
 Padstow,-33.9487767,151.030116
 Pagewood - Hillsdale - Daceyville,-33.936838,151.2216943
 Panania - Milperra - Picnic Point,-33.9532567,150.9968874
-Parkes (NSW),-32.8225409,147.976136267924
-Parkes Region,-32.8225409,147.976136267924
+Parkes (NSW),-32.8225409,147.9761363
+Parkes Region,-32.8225409,147.9761363
 Parklea - Kellyville Ridge,-33.725,150.9161111
 Parramatta - Rosehill,-33.8263889,151.0305556
-Peakhurst - Lugarno,-33.9686148,151.052399968271
-Pendle Hill - Girraween,-33.8000678,150.95020221082
+Peakhurst - Lugarno,-33.9686148,151.0524
+Pendle Hill - Girraween,-33.8000678,150.9502022
 Pennant Hills - Cheltenham,-33.7384663,151.0716639
 Penrith,-33.7510792,150.6941684
 Petersham - Stanmore,-33.8944866,151.1640756
 Picton - Tahmoor - Buxton,-33.3524871,115.6940905
 Pitt Town - McGraths Hill,-33.5846533,150.8709805
 Point Clare - Koolewong,-33.44,151.3261111
-Port Kembla - Warrawong,-34.486422,150.889653195858
+Port Kembla - Warrawong,-34.486422,150.8896532
 Port Kembla Industrial,-34.464305,150.8572761
 Port Macquarie - East,-31.4299499,152.9103525
 Port Macquarie - West,-31.4299499,152.9103525
 Port Macquarie Region,-31.4299499,152.9103525
-Potts Point - Woolloomooloo,-33.86729465,151.221245371395
+Potts Point - Woolloomooloo,-33.86729465,151.2212454
 Pottsville,-28.3869444,153.5608333
 Prestons - Edmondson Park,-33.9415149,150.8747464
-Prospect Reservoir,-33.8212526,150.895696213568
+Prospect Reservoir,-33.8212526,150.8956962
 Punchbowl,-33.928717,151.0522591
 Putney,-33.826067,151.1064224
 Pymble,-33.7450185,151.1424708
@@ -436,36 +436,36 @@ Rooty Hill - Minchinbury,-33.780842,150.828357
 Rose Bay - Vaucluse - Watsons Bay,-33.8741644,151.265471
 Roselands,-33.9339943,151.0765121
 Rosemeadow - Glen Alpine,-34.1066667,150.7927778
-Rouse Hill - Beaumont Hills,-33.69235075,150.92460495422
-Royal National Park,-34.11219955,151.026726880046
-Ryde,-33.8015751,151.104618394015
+Rouse Hill - Beaumont Hills,-33.69235075,150.924605
+Royal National Park,-34.11219955,151.0267269
+Ryde,-33.8015751,151.1046184
 Sans Souci - Ramsgate,-33.9926292,151.1337972
 Saratoga - Davistown,-33.4765688,151.3585393
 Sawtell - Boambee,-30.3316667,153.0844444
 Scone,-32.0466349,150.8670217
 Scone Region,-32.0466349,150.8670217
 Seaham - Woodville,-32.6615292,151.7267675
-Seven Hills - Toongabbie,-33.77830775,150.937384686772
+Seven Hills - Toongabbie,-33.77830775,150.9373847
 Shellharbour - Flinders,-34.580956,150.846003
 Shellharbour - Oak Flats,-34.5636037,150.8194112
 Shortland - Jesmond,-32.8816613,151.6871202
-Singleton,-32.602355,151.113288707312
-Singleton Region,-32.602355,151.113288707312
+Singleton,-32.602355,151.1132887
+Singleton Region,-32.602355,151.1132887
 Smithfield - Wetherill Park,-33.850816,150.909686
 South Hurstville - Blakehurst,-33.9777213,151.1060554
-South West Rocks,-30.89521355,153.038874517292
-Southern Highlands,-34.4706676,150.418404795804
+South West Rocks,-30.89521355,153.0388745
+Southern Highlands,-34.4706676,150.4184048
 Springwood - Winmalee,-33.6655154,150.6034617
 St Clair,-33.7983333,150.7844444
 St Georges Basin - Erowal Bay,-35.096811,150.6069763
 St Ives,-33.7258869,151.1727212
 St Johns Park - Wakeley,-33.8816667,150.9011111
-St Leonards - Naremburn,-33.8168568,151.19430075
+St Leonards - Naremburn,-33.8168568,151.1943008
 St Marys - North St Marys,-33.7544444,150.7858333
-Stockton - Fullerton Cove,-32.8479228,151.834420225397
-Strathfield,-33.87981765,151.078524591321
+Stockton - Fullerton Cove,-32.8479228,151.8344202
+Strathfield,-33.87981765,151.0785246
 Strathfield South,-33.8966667,151.0788889
-Summerland Point - Gwandalan,-33.1395583,151.584281759756
+Summerland Point - Gwandalan,-33.1395583,151.5842818
 Surry Hills,-33.8845123,151.2100301
 Sussex Inlet - Berrara,-35.1344598,150.5191372
 Sutherland - Kirrawee,-34.0344781,151.0726428
@@ -473,15 +473,15 @@ Swansea - Caves Beach,-33.0972379,151.6421775
 Sydenham - Tempe - St Peters,-37.6997223,144.7653295
 Sydney - Haymarket - The Rocks,-33.8548157,151.2164539
 Sylvania - Taren Point,-34.0141205,151.0988161
-Tamworth - East,-30.9220482,150.909856412641
-Tamworth - North,-30.9220482,150.909856412641
-Tamworth - West,-30.9220482,150.909856412641
-Tamworth Region,-30.9220482,150.909856412641
+Tamworth - East,-30.9220482,150.9098564
+Tamworth - North,-30.9220482,150.9098564
+Tamworth - West,-30.9220482,150.9098564
+Tamworth Region,-30.9220482,150.9098564
 Taree,-31.912864,152.4608481
 Taree Region,-31.912864,152.4608481
 Tea Gardens - Hawks Nest,-32.6671205,152.161021
-Temora,-34.3830356,147.468585992081
-Tenterfield,-28.83907675,152.280652343055
+Temora,-34.3830356,147.468586
+Tenterfield,-28.83907675,152.2806523
 Terranora - North Tumblegum,-28.2455556,153.5094444
 Terrey Hills - Duffys Forest,-33.6918185,151.2205908
 Terrigal - North Avoca,-33.4566667,151.4344444
@@ -491,9 +491,9 @@ Thirroul - Austinmer - Coalcliff,-34.3164691,150.918932
 Thornton - Millers Forest,-37.2542028,145.7986671
 Tocumwal - Finley - Jerilderie,-35.3886604,145.713516
 Tomerong - Wandandian - Woollamia,-35.0587865,150.5778602
-Toongabbie - Constitution Hill,-33.7971736,150.980080913203
+Toongabbie - Constitution Hill,-33.7971736,150.9800809
 Toronto - Awaba,-33.0046099,151.5742278
-Toukley - Norah Head,-33.2711177,151.56268153755
+Toukley - Norah Head,-33.2711177,151.5626815
 Tuggerah - Kangy Angy,-33.317743,151.3939785
 Tumbarumba,-35.7764898,148.010062
 Tumut,-35.3038889,148.2233333
@@ -506,26 +506,26 @@ Ulladulla,-35.3621503,150.4751713
 Ulladulla Region,-35.3621503,150.4751713
 Umina - Booker Bay - Patonga,-33.5177778,151.3094444
 Unanderra - Mount Kembla,-34.4547333,150.8460159
-Urunga,-30.51882815,152.99674318378
-Valentine - Eleebana,-33.0039698,151.647082937956
+Urunga,-30.51882815,152.9967432
+Valentine - Eleebana,-33.0039698,151.6470829
 Wagga Wagga - East,-35.115,147.3677778
 Wagga Wagga - North,-35.115,147.3677778
 Wagga Wagga - South,-35.115,147.3677778
 Wagga Wagga - West,-35.115,147.3677778
 Wagga Wagga Region,-35.115,147.3677778
-Wahroonga (East) - Warrawee,-33.724191,151.121699603555
-Waitara - Wahroonga (West),-33.7133412,151.109276776445
-Walcha,-31.1975806,151.749126623564
+Wahroonga (East) - Warrawee,-33.724191,151.1216996
+Waitara - Wahroonga (West),-33.7133412,151.1092768
+Walcha,-31.1975806,151.7491266
 Walgett - Lightning Ridge,-29.4285225,147.9779203
 Wallsend - Elermore Vale,-32.9106937,151.6603239
-Wamberal - Forresters Beach,-33.41256685,151.453642224287
+Wamberal - Forresters Beach,-33.41256685,151.4536422
 Wangi Wangi - Rathmines,-33.0346549,151.5640239
 Waratah - North Lambton,-32.9050598,151.7239702
 Warilla,-34.552341,150.8594438
 Warners Bay - Boolaroo,-32.9739199,151.6489887
 Warnervale - Wadalba,-33.2483333,151.4311111
 Warragamba - Silverdale,-33.8890386,150.6039175
-Warriewood - Mona Vale,-33.68984445,151.30878650066
+Warriewood - Mona Vale,-33.68984445,151.3087865
 Warwick Farm,-33.915,150.9344444
 Waterloo - Beaconsfield,-33.9002762,151.2073137
 Wauchope,-31.4557879,152.734664
@@ -551,12 +551,12 @@ Wollongong - East,-34.4252939,150.8964872
 Wollongong - West,-34.4243941,150.89385
 Woolaware - Burraneer,-34.0448411,151.1401717
 Woolgoolga - Arrawarra,-30.070869,153.1504105
-Woollahra,-33.86179175,151.27334161153
+Woollahra,-33.86179175,151.2733416
 Woonona - Bulli - Russell Vale,-34.3455556,150.9041667
 Woy Woy - Blackwall,-33.5042284,151.329384
 Wyoming,-33.4066667,151.3594444
 Wyong,-33.285641,151.4253064
-Yagoona - Birrong,-33.8988655,151.028878319802
+Yagoona - Birrong,-33.8988655,151.0288783
 Yarramundi - Londonderry,-31.2347531,148.4678708
 Yass,-34.8362784,148.9156645
 Yass Region,-34.8362784,148.9156645
