@@ -48,7 +48,7 @@ def load_merge_clean(nb_path = os.getcwd()):
 
     df.set_index(['CODE', 'LABEL', 'YEAR'], inplace=True)
 
-    df = clean_data(df, 'YEAR')
+    df = clean_data(df, 'CODE')
     
     df = df.xs(2016, level = 'YEAR')
 
