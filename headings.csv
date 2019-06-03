@@ -1,0 +1,456 @@
+,0
+0,NUMBER OF BUSINESSES Number of non-employing businesses no.
+1,NUMBER OF BUSINESSES 1-4 employees no.
+2,NUMBER OF BUSINESSES 5-19 employees no.
+3,NUMBER OF BUSINESSES 20 or more employees no.
+4,NUMBER OF BUSINESSES Total number of businesses no.
+5,BUSINESS ENTRIES Number of non-employing business entries  no.
+6,BUSINESS ENTRIES 1-4 employees no.
+7,BUSINESS ENTRIES 5-19 employees no.
+8,BUSINESS ENTRIES 20 or more employees no.
+9,BUSINESS ENTRIES Total number of business entries no.
+10,BUSINESS EXITS Number of non-employing business exits no.
+11,BUSINESS EXITS 1-4 employees no.
+12,BUSINESS EXITS 5-19 employees no.
+13,BUSINESS EXITS 20 or more employees no.
+14,BUSINESS EXITS Total number of business exits  no.
+15,"NUMBER OF BUSINESSES BY INDUSTRY Agriculture, Forestry and Fishing no."
+16,NUMBER OF BUSINESSES BY INDUSTRY Mining no.
+17,NUMBER OF BUSINESSES BY INDUSTRY Manufacturing no.
+18,"NUMBER OF BUSINESSES BY INDUSTRY Electricity, Gas, Water & Waste Services no."
+19,NUMBER OF BUSINESSES BY INDUSTRY Construction no.
+20,NUMBER OF BUSINESSES BY INDUSTRY Wholesale trade no.
+21,NUMBER OF BUSINESSES BY INDUSTRY Retail trade no.
+22,NUMBER OF BUSINESSES BY INDUSTRY Accommodation & Food Services no.
+23,"NUMBER OF BUSINESSES BY INDUSTRY Transport, Postal and Warehousing no."
+24,NUMBER OF BUSINESSES BY INDUSTRY Information Media & Telecommunications no.
+25,NUMBER OF BUSINESSES BY INDUSTRY Financial & Insurance Services no.
+26,"NUMBER OF BUSINESSES BY INDUSTRY Rental, Hiring, & Real Estate Services no."
+27,NUMBER OF BUSINESSES BY INDUSTRY Professional Scientific & Technical Services no.
+28,NUMBER OF BUSINESSES BY INDUSTRY Administrative & Support Services no.
+29,NUMBER OF BUSINESSES BY INDUSTRY Public Administration & Safety no.
+30,NUMBER OF BUSINESSES BY INDUSTRY Education & Training no.
+31,NUMBER OF BUSINESSES BY INDUSTRY Health Care & Social Assistance no.
+32,NUMBER OF BUSINESSES BY INDUSTRY Arts & Recreation Services no.
+33,NUMBER OF BUSINESSES BY INDUSTRY Other Services no.
+34,NUMBER OF BUSINESSES BY INDUSTRY Currently unknown no.
+35,NUMBER OF BUSINESSES BY INDUSTRY Total no.
+36,BUILDING APPROVALS Private sector houses no.
+37,BUILDING APPROVALS Private sector dwellings excluding houses no.
+38,BUILDING APPROVALS Total private sector dwelling units no.
+39,BUILDING APPROVALS Total dwelling units no.
+40,BUILDING APPROVALS Value of private sector houses $m
+41,BUILDING APPROVALS Value of private sector dwellings excluding houses $m
+42,BUILDING APPROVALS Value of total private sectors dwelling units $m
+43,BUILDING APPROVALS Value of total residential building $m
+44,BUILDING APPROVALS Value of total non residential building $m
+45,BUILDING APPROVALS Value of total building $m
+46,RESIDENTIAL PROPERTY PRICES Houses - number of transfers no.
+47,RESIDENTIAL PROPERTY PRICES Houses - median sale price $
+48,RESIDENTIAL PROPERTY PRICES Attached Dwellings - number of transfers no.
+49,RESIDENTIAL PROPERTY PRICES Attached Dwellings - median sale price $
+50,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Passenger vehicles no. 
+51,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Campervans no. 
+52,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Light commercial vehicles no. 
+53,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Light rigid trucks no. 
+54,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Heavy rigid trucks no. 
+55,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Articulated trucks no. 
+56,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Non-freight carrying trucks no. 
+57,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Buses no. 
+58,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF VEHICLE Motorcycles no. 
+59,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF FUEL Petrol no. 
+60,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF FUEL Diesel no. 
+61,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF FUEL LPG/Dual/Other no. 
+62,REGISTERED MOTOR VEHICLES - NUMBER BY TYPE OF FUEL Electric no. 
+63,REGISTERED MOTOR VEHICLES - YEAR OF MANUFACTURE Less than 5 years no. 
+64,REGISTERED MOTOR VEHICLES - YEAR OF MANUFACTURE 5 to 10 years no. 
+65,REGISTERED MOTOR VEHICLES - YEAR OF MANUFACTURE Over 10 years no. 
+66,REGISTERED MOTOR VEHICLES - YEAR OF MANUFACTURE Total Registered Motor Vehicles no. 
+67,TOURIST ACCOMMODATION ESTABLISHMENTS Establishments with 15 or more rooms no.
+68,"EMPLOYED BY INDUSTRY Agriculture, Forestry and Fishing %"
+69,EMPLOYED BY INDUSTRY Mining %
+70,EMPLOYED BY INDUSTRY Manufacturing %
+71,"EMPLOYED BY INDUSTRY Electricity, Gas, Water & Waste Services %"
+72,EMPLOYED BY INDUSTRY Construction %
+73,EMPLOYED BY INDUSTRY Wholesale Trade %
+74,EMPLOYED BY INDUSTRY Retail Trade %
+75,EMPLOYED BY INDUSTRY Accommodation & Food Services %
+76,"EMPLOYED BY INDUSTRY Transport, Postal and Warehousing %"
+77,EMPLOYED BY INDUSTRY Information Media & Telecommunications %
+78,EMPLOYED BY INDUSTRY Financial & Insurance Services %
+79,"EMPLOYED BY INDUSTRY Rental, Hiring, & Real Estate Services %"
+80,EMPLOYED BY INDUSTRY Professional Scientific & Technical Services %
+81,EMPLOYED BY INDUSTRY Administrative & Support Services %
+82,EMPLOYED BY INDUSTRY Public Administration & Safety %
+83,EMPLOYED BY INDUSTRY Education & Training %
+84,EMPLOYED BY INDUSTRY Health Care & Social Assistance %
+85,EMPLOYED BY INDUSTRY Arts & Recreation Services %
+86,EMPLOYED BY INDUSTRY Other services %
+87,EMPLOYED BY INDUSTRY Total employed no. 
+88,CHILDREN ENROLLED IN A PRESCHOOL PROGRAM 4 year olds enrolled in preschool or in a preschool program no.
+89,CHILDREN ENROLLED IN A PRESCHOOL PROGRAM 5 year olds enrolled in preschool or in a preschool program no.
+90,CHILDREN ENROLLED IN A PRESCHOOL PROGRAM Enrolled in preschool no.
+91,CHILDREN ENROLLED IN A PRESCHOOL PROGRAM Enrolled in a preschool program within a long day care centre no.
+92,CHILDREN ENROLLED IN A PRESCHOOL PROGRAM Children enrolled  across more than one provider type no.
+93,CHILDREN ENROLLED IN A PRESCHOOL PROGRAM Total enrolled in a preschool program no.
+94,CHILDREN ATTENDING A PRESCHOOL PROGRAM Less than 15 hours no.
+95,CHILDREN ATTENDING A PRESCHOOL PROGRAM 15 hours or more no.
+96,HIGHER EDUCATION LOAN PROGRAM (HELP) REPAYMENTS Taxpayers with HELP repayment no.
+97,PERSONS WITH POST SCHOOL QUALIFICATIONS Persons With a Post School Qualification %
+98,PERSONS WITH POST SCHOOL QUALIFICATIONS Postgraduate Degree %
+99,"PERSONS WITH POST SCHOOL QUALIFICATIONS Graduate Diploma, Graduate Certificate %"
+100,PERSONS WITH POST SCHOOL QUALIFICATIONS Bachelor Degree %
+101,"PERSONS WITH POST SCHOOL QUALIFICATIONS Advanced Diploma, or Diploma  %"
+102,PERSONS WITH POST SCHOOL QUALIFICATIONS Certificate %
+103,"PERSONS WITH POST SCHOOL QUALIFICATIONS Inadequately described, not stated %"
+104,FIELD OF STUDY Natural and Physical Sciences (%) %
+105,FIELD OF STUDY Information Technology %
+106,FIELD OF STUDY Engineering and Related Technologies %
+107,FIELD OF STUDY Architecture and Building %
+108,"FIELD OF STUDY Agriculture, Environmental and Related Studies %"
+109,FIELD OF STUDY Health %
+110,FIELD OF STUDY Education %
+111,FIELD OF STUDY Management and Commerce %
+112,FIELD OF STUDY Society and Culture %
+113,FIELD OF STUDY Creative Arts %
+114,"FIELD OF STUDY Food, Hospitality and Personal Services %"
+115,FIELD OF STUDY Mixed Field Programmes %
+116,FIELD OF STUDY Field of Study Inadequately Described or Not Stated %
+117,HIGHEST YEAR OF SCHOOL COMPLETED - PERSONS AGED 15 YEARS AND OVER  Completed Year 12 or equivalent  %
+118,HIGHEST YEAR OF SCHOOL COMPLETED - PERSONS AGED 15 YEARS AND OVER  Completed Year 11 or equivalent  %
+119,HIGHEST YEAR OF SCHOOL COMPLETED - PERSONS AGED 15 YEARS AND OVER  Completed Year 10 or equivalent  %
+120,HIGHEST YEAR OF SCHOOL COMPLETED - PERSONS AGED 15 YEARS AND OVER  Completed Year 9 or equivalent  %
+121,HIGHEST YEAR OF SCHOOL COMPLETED - PERSONS AGED 15 YEARS AND OVER  Completed Year 8 or below %
+122,HIGHEST YEAR OF SCHOOL COMPLETED - PERSONS AGED 15 YEARS AND OVER  Did not go to school %
+123,HIGHEST YEAR OF SCHOOL COMPLETED - PERSONS AGED 15 YEARS AND OVER  Not Stated %
+124,OCCUPATION OF EMPLOYED PERSONS Managers %
+125,OCCUPATION OF EMPLOYED PERSONS Professionals %
+126,OCCUPATION OF EMPLOYED PERSONS Technicians and Trades Workers %
+127,"OCCUPATION OF EMPLOYED PERSONS Community, Personal Service Workers %"
+128,"OCCUPATION OF EMPLOYED PERSONS Clerical, Administrative Workers %"
+129,OCCUPATION OF EMPLOYED PERSONS Sales Workers %
+130,"OCCUPATION OF EMPLOYED PERSONS Machinery Operators, Drivers %"
+131,OCCUPATION OF EMPLOYED PERSONS Labourers %
+132,"OCCUPATION OF EMPLOYED PERSONS Inadequately Described, Not Stated %"
+133,YOUTH ENGAGEMENT IN WORK/STUDY Working full-time & studying part-time %
+134,YOUTH ENGAGEMENT IN WORK/STUDY Working part-time & studying part-time %
+135,YOUTH ENGAGEMENT IN WORK/STUDY Working part-time & studying full-time %
+136,YOUTH ENGAGEMENT IN WORK/STUDY Working full-time (not studying) %
+137,YOUTH ENGAGEMENT IN WORK/STUDY Studying full-time (not working) %
+138,YOUTH ENGAGEMENT IN WORK/STUDY Working full-time & studying full-time %
+139,YOUTH ENGAGEMENT IN WORK/STUDY Fully engaged %
+140,YOUTH ENGAGEMENT IN WORK/STUDY Total - aged 15-19 years no.
+141,JOBS IN AUSTRALIA Number of Jobs - Females no.
+142,JOBS IN AUSTRALIA Number of Jobs - Males no.
+143,JOBS IN AUSTRALIA Number of Jobs - Persons no.
+144,"JOBS IN AUSTRALIA Number of Employee Jobs - Agriculture, forestry and fishing no."
+145,JOBS IN AUSTRALIA Number of Employee Jobs - Mining no.
+146,JOBS IN AUSTRALIA Number of Employee Jobs  - Manufacturing no.
+147,"JOBS IN AUSTRALIA Number of Employee Jobs - Electricity, gas, water and waste services no."
+148,JOBS IN AUSTRALIA Number of Employee Jobs - Construction no.
+149,JOBS IN AUSTRALIA Number of Employee Jobs - Wholesale trade no.
+150,JOBS IN AUSTRALIA Number of Employee Jobs - Retail trade no.
+151,JOBS IN AUSTRALIA Number of Employee Jobs - Accommodation and food services no.
+152,"JOBS IN AUSTRALIA Number of Employee Jobs - Transport, postal and warehousing no."
+153,JOBS IN AUSTRALIA Number of Employee Jobs - Information media and telecommunications no.
+154,JOBS IN AUSTRALIA Number of Employee Jobs - Finance and insurance services no.
+155,"JOBS IN AUSTRALIA Number of Employee Jobs - Rental, hiring and real estate services no."
+156,"JOBS IN AUSTRALIA Number of Employee Jobs - Professional, scientific and technical services no."
+157,JOBS IN AUSTRALIA Number of Employee Jobs - Administrative and support services no.
+158,JOBS IN AUSTRALIA Number of Employee Jobs - Public administration and safety no.
+159,JOBS IN AUSTRALIA Number of Employee Jobs - Education and training no.
+160,JOBS IN AUSTRALIA Number of Employee Jobs - Health care and social assistance no.
+161,JOBS IN AUSTRALIA Number of Employee Jobs - Arts and recreation services no.
+162,JOBS IN AUSTRALIA Number of Employee Jobs - Other services no.
+163,JOBS IN AUSTRALIA Number of Employee Jobs - Total no.
+164,LABOUR FORCE STATISTICS Labour Force no.
+165,LABOUR FORCE STATISTICS Unemployed no.
+166,LABOUR FORCE STATISTICS Unemployment rate %
+167,LABOUR FORCE STATISTICS  Participation rate %
+168,GIFTS/DONATIONS REPORTED BY TAXPAYERS Persons no.
+169,GIFTS/DONATIONS REPORTED BY TAXPAYERS Median $
+170,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Used one method - Train or tram no.
+171,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Used one method - Bus no.
+172,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Used one method - Car (as driver or passenger) no.
+173,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Used one method - Motor bike/scooter no.
+174,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Used one method - Bicycle no.
+175,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Used one method - Other (inc. Taxis) no.
+176,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Used one method - Walked only no.
+177,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Total used one method no.
+178,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Total used more than one method no.
+179,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Other - Worked from home no.
+180,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Other - Employed but did not go to work no.
+181,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Other - Method of travel not stated no.
+182,METHOD OF TRAVEL TO WORK - EMPLOYED PERSONS Total employed no.
+183,HOUSEHOLDS BY TYPE Lone person households no.
+184,HOUSEHOLDS BY TYPE Group households no.
+185,HOUSEHOLDS BY TYPE Family households no.
+186,HOUSEHOLDS BY TYPE Total households no.
+187,HOUSEHOLDS BY TYPE Average Household Size no.
+188,FAMILIES BY TYPE Couple families with children under 15 and/or dependent students no.
+189,FAMILIES BY TYPE Couple families with non-dependent children only no.
+190,FAMILIES BY TYPE Couple families without children no.
+191,"FAMILIES BY TYPE One parent families, children under 15 &/or dependent students no."
+192,"FAMILIES BY TYPE One parent families, non-dependent children only no."
+193,FAMILIES BY TYPE Other families no.
+194,FAMILIES BY TYPE Total families no.
+195,FAMILIES BY TYPE Average Family Size no.
+196,SOCIAL MARITAL STATUS & REGISTERED MARITAL STATUS Married in a registered marriage no.
+197,SOCIAL MARITAL STATUS & REGISTERED MARITAL STATUS Married in a de facto marriage no.
+198,SOCIAL MARITAL STATUS & REGISTERED MARITAL STATUS Not married no.
+199,SOCIAL MARITAL STATUS & REGISTERED MARITAL STATUS Married %
+200,SOCIAL MARITAL STATUS & REGISTERED MARITAL STATUS Never Married %
+201,SOCIAL MARITAL STATUS & REGISTERED MARITAL STATUS Widowed %
+202,SOCIAL MARITAL STATUS & REGISTERED MARITAL STATUS Divorced %
+203,SOCIAL MARITAL STATUS & REGISTERED MARITAL STATUS Separated %
+204,ACCESS TO INTERNET AT HOME Internet accessed from dwelling %
+205,ACCESS TO INTERNET AT HOME Internet not accessed from dwelling %
+206,RENT & MORTGAGE PAYMENTS Average monthly household rental payment $
+207,RENT & MORTGAGE PAYMENTS Average monthly household mortgage payment $
+208,UNPAID CHILD CARE  Persons who did not provide child care (%) %
+209,UNPAID CHILD CARE  Persons who cared for own child/children  %
+210,UNPAID CHILD CARE  Persons who cared for other child/children  %
+211,UNPAID CHILD CARE  Persons who cared for own child/children and other child/children  %
+212,UNPAID CHILD CARE  Unpaid Child Care - Not stated %
+213,UNPAID WORK Persons who provided unpaid assistance to a person with a disability  %
+214,UNPAID WORK Persons undertaking voluntary work for an organisation or group %
+215,COUNT OF ALL CHILDREN IN FAMILY Average number of all children in a family no.
+216,HOUSING SUITABILITY Dwellings with extra bedrooms needed no.
+217,HOUSING SUITABILITY Dwellings with bedrooms spare no.
+218,HOUSING SUITABILITY Dwellings with no bedrooms needed or spare no.
+219,DWELLING STRUCTURE Separate house  no.
+220,"DWELLING STRUCTURE Semi-detached, row or terrace house, townhouse etc.  no."
+221,DWELLING STRUCTURE Flat or apartment  no.
+222,DWELLING STRUCTURE Other dwelling  no.
+223,TENURE TYPE Owned Outright %
+224,TENURE TYPE Owned with a mortgage %
+225,TENURE TYPE Rented %
+226,HOUSEHOLD STRESS Households where mortgage repayments are less than 30% of household income %
+227,HOUSEHOLD STRESS Households with mortgage repayments greater than or equal to 30% of household income %
+228,HOUSEHOLD STRESS Households where rent payments are less than 30% of household income %
+229,HOUSEHOLD STRESS Households with rent payments greater than or equal to 30% of household income %
+230,SOCIO-ECONOMIC INDEXES FOR AREAS (SEIFA) Australia SEIFA decile ranking - Index of Relative Socio-Economic Disadvantage (IRSD) no.
+231,SOCIO-ECONOMIC INDEXES FOR AREAS (SEIFA) Australia SEIFA decile ranking - Index of Relative Socio-Economic Advantage and Disadvantage (IRSAD) no.
+232,SOCIO-ECONOMIC INDEXES FOR AREAS (SEIFA) Australia SEIFA decile ranking - Index of Education and Occupation (IEO) no.
+233,SOCIO-ECONOMIC INDEXES FOR AREAS (SEIFA) Australia SEIFA decile ranking - Index of Economic Resources (IER) no.
+234,SOCIO-ECONOMIC INDEXES FOR AREAS (SEIFA) State SEIFA decile ranking - Index of Relative Socio-Economic Disadvantage (IRSD) no.
+235,SOCIO-ECONOMIC INDEXES FOR AREAS (SEIFA) State SEIFA decile ranking - Index of Relative Socio-Economic Advantage and Disadvantage (IRSAD) no.
+236,SOCIO-ECONOMIC INDEXES FOR AREAS (SEIFA) State SEIFA decile ranking - Index of Education and Occupation (IEO) no.
+237,SOCIO-ECONOMIC INDEXES FOR AREAS (SEIFA) State SEIFA decile ranking - Index of Economic Resources (IER) no.
+238,"HOMELESSNESS Homelessness rate per 10,000 persons rate"
+239,COMMUTING TO WORK Average commuting distance from Place of Usual Residence kms
+240,COMMUTING TO WORK Median commuting distance from Place of Usual Residence kms
+241,COMMUTING TO WORK Average commuting distance to place of work kms
+242,COMMUTING TO WORK Median commuting distance to place of work kms
+243,PRIVATE HEALTH Taxpayers who report having private health insurance  no.
+244,CORE ACTIVITY NEED FOR ASSISTANCE  Persons who have need for assistance with core activities %
+245,ESTIMATES OF PERSONAL INCOME Employee income earners no.
+246,ESTIMATES OF PERSONAL INCOME Employee income earners - median age  years
+247,ESTIMATES OF PERSONAL INCOME Total Employee income $
+248,ESTIMATES OF PERSONAL INCOME Median Employee income $
+249,ESTIMATES OF PERSONAL INCOME Mean Employee income $
+250,ESTIMATES OF PERSONAL INCOME Employee income as main source of income %
+251,ESTIMATES OF PERSONAL INCOME Own unincorporated business income earners no.
+252,ESTIMATES OF PERSONAL INCOME Own unincorporated business income earners - median age  years
+253,ESTIMATES OF PERSONAL INCOME Total Own unincorporated business income $
+254,ESTIMATES OF PERSONAL INCOME Median Own unincorporated business income $
+255,ESTIMATES OF PERSONAL INCOME Mean Own unincorporated business income $
+256,ESTIMATES OF PERSONAL INCOME Own unincorporated business income as main source of income  %
+257,ESTIMATES OF PERSONAL INCOME Investment income earners no.
+258,ESTIMATES OF PERSONAL INCOME Investment income earners - median age years
+259,ESTIMATES OF PERSONAL INCOME Total Investment income $
+260,ESTIMATES OF PERSONAL INCOME Median Investment income $
+261,ESTIMATES OF PERSONAL INCOME Mean Investment income $
+262,ESTIMATES OF PERSONAL INCOME Investment income as main source of income %
+263,ESTIMATES OF PERSONAL INCOME Superannuation and annuity income earners no.
+264,ESTIMATES OF PERSONAL INCOME Superannuation and annuity income earners - median age years
+265,ESTIMATES OF PERSONAL INCOME Total Superannuation and annuity income $
+266,ESTIMATES OF PERSONAL INCOME Median Superannuation and annuity income $
+267,ESTIMATES OF PERSONAL INCOME Mean Superannuation and annuity income $
+268,ESTIMATES OF PERSONAL INCOME Superannuation and annuity income as main source of income %
+269,ESTIMATES OF PERSONAL INCOME  Total income earners (excl. Government pensions) no.
+270,ESTIMATES OF PERSONAL INCOME Total income earners (excl. Government pensions and allowances) - median age years
+271,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions) $
+272,ESTIMATES OF PERSONAL INCOME Median Total income (excl. Government pensions) $
+273,ESTIMATES OF PERSONAL INCOME Mean Total income (excl. Government pensions) $
+274,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - P80/P20 ratio
+275,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - P80/P50 ratio
+276,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - P20/P50  ratio
+277,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - P10/P50  ratio
+278,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - Gini coefficient no.
+279,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - Income share of top 1% of earners %
+280,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - Income share of top 5% of earners %
+281,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - Income share of top 10% of earners %
+282,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - Lowest Quartile %
+283,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - Second Quartile %
+284,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - Third Quartile %
+285,ESTIMATES OF PERSONAL INCOME Total income (excl. Government pensions and allowances) - Highest Quartile %
+286,GROSS CAPITAL GAINS REPORTED BY TAXPAYERS Gross Capital Gains - Persons no.
+287,GROSS CAPITAL GAINS REPORTED BY TAXPAYERS Gross Capital Gains - Amount  $m
+288,GROSS CAPITAL GAINS REPORTED BY TAXPAYERS Gross Capital Gains - Median $
+289,GROSS CAPITAL GAINS REPORTED BY TAXPAYERS Gross Capital Gains - Mean $
+290,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Age Pension - Centrelink no.
+291,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Carer Payment no.
+292,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Disability Support Pension no.
+293,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Newstart Allowance no.
+294,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Parenting Payment - Single no.
+295,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Youth Allowance (Full time students/apprentices) no.
+296,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Youth Allowance (Other) no.
+297,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Family Tax Benefit A no.
+298,SELECTED GOVERNMENT PENSIONS & ALLOWANCES Family Tax Benefit B no.
+299,TOTAL PERSONAL INCOME (WEEKLY) - PERSONS OVER 15 YEARS Persons earning $1-$499 per week %
+300,TOTAL PERSONAL INCOME (WEEKLY) - PERSONS OVER 15 YEARS Persons earning $500-$999 per week %
+301,TOTAL PERSONAL INCOME (WEEKLY) - PERSONS OVER 15 YEARS Persons earning $1000-$1999 per week %
+302,TOTAL PERSONAL INCOME (WEEKLY) - PERSONS OVER 15 YEARS Persons earning $2000-$2999 per week %
+303,TOTAL PERSONAL INCOME (WEEKLY) - PERSONS OVER 15 YEARS Persons earning $3000 or more per week %
+304,TOTAL PERSONAL INCOME (WEEKLY) - PERSONS OVER 15 YEARS Persons earning nil income %
+305,TOTAL PERSONAL INCOME (WEEKLY) - PERSONS OVER 15 YEARS Persons with a negative income %
+306,"EQUIVALISED TOTAL HOUSEHOLD INCOME - FAMILY, LONE PERSON AND GROUP HOUSEHOLDS Median equivalised total household income (weekly) $"
+307,PROTECTED AREAS  Indigenous Protected Area no.
+308,PROTECTED AREAS National Parks no.
+309,PROTECTED AREAS Nature Reserves no.
+310,PROTECTED AREAS All Other Protected Areas no.
+311,PROTECTED AREAS Total no.
+312,PROTECTED AREAS  Indigenous Protected Area ha
+313,PROTECTED AREAS National Parks ha
+314,PROTECTED AREAS Nature Reserves ha
+315,PROTECTED AREAS All Other Protected Areas ha
+316,PROTECTED AREAS Total ha
+317,PROTECTED AREAS  Indigenous Protected Area %
+318,PROTECTED AREAS National Parks %
+319,PROTECTED AREAS Nature Reserves %
+320,PROTECTED AREAS All Other Protected Areas %
+321,PROTECTED AREAS Total %
+322,SOLAR INSTALLATIONS Increase in installations from previous year %
+323,SOLAR INSTALLATIONS Solar Water Heater Installations no.
+324,SOLAR INSTALLATIONS Increase in SWH installations from previous year %
+325,POPULATION OF PERSONS BORN OVERSEAS Number of Females  no.
+326,POPULATION OF PERSONS BORN OVERSEAS Number of Males  no.
+327,POPULATION OF PERSONS BORN OVERSEAS Total population  no.
+328,AGE OF PERSONS BORN OVERSEAS 0-4 years  no.
+329,AGE OF PERSONS BORN OVERSEAS 5-9 years  no.
+330,AGE OF PERSONS BORN OVERSEAS 10-14 years  no.
+331,AGE OF PERSONS BORN OVERSEAS 15-19 years  no.
+332,AGE OF PERSONS BORN OVERSEAS 20-24 years  no.
+333,AGE OF PERSONS BORN OVERSEAS 25-29 years  no.
+334,AGE OF PERSONS BORN OVERSEAS 30-34 years  no.
+335,AGE OF PERSONS BORN OVERSEAS 35-39 years  no.
+336,AGE OF PERSONS BORN OVERSEAS 40-44 years  no.
+337,AGE OF PERSONS BORN OVERSEAS 45-49 years  no.
+338,AGE OF PERSONS BORN OVERSEAS 50-54 years  no.
+339,AGE OF PERSONS BORN OVERSEAS 55-59 years  no.
+340,AGE OF PERSONS BORN OVERSEAS 60-64 years  no.
+341,AGE OF PERSONS BORN OVERSEAS 65-69 years  no.
+342,AGE OF PERSONS BORN OVERSEAS 70-74 years  no.
+343,AGE OF PERSONS BORN OVERSEAS 75-79 years  no.
+344,AGE OF PERSONS BORN OVERSEAS 80-84 years  no.
+345,AGE OF PERSONS BORN OVERSEAS 85 and over  no.
+346,YEAR OF ARRIVAL OF PERSONS BORN OVERSEAS Arrived within 5 years  %
+347,YEAR OF ARRIVAL OF PERSONS BORN OVERSEAS Arrived 5-10 years ago  %
+348,YEAR OF ARRIVAL OF PERSONS BORN OVERSEAS Arrived over 10 years ago  %
+349,YEAR OF ARRIVAL OF PERSONS BORN OVERSEAS Arrival not stated  %
+350,CITIZENSHIP STATUS OF PERSONS BORN OVERSEAS Australian citizen  %
+351,CITIZENSHIP STATUS OF PERSONS BORN OVERSEAS Not an Australian citizen  %
+352,CITIZENSHIP STATUS OF PERSONS BORN OVERSEAS Citizenship not stated  %
+353,RELIGIOUS AFFILIATION OF PERSONS BORN OVERSEAS Buddhism  %
+354,RELIGIOUS AFFILIATION OF PERSONS BORN OVERSEAS Christianity  %
+355,RELIGIOUS AFFILIATION OF PERSONS BORN OVERSEAS Hinduism  %
+356,RELIGIOUS AFFILIATION OF PERSONS BORN OVERSEAS Islam  %
+357,RELIGIOUS AFFILIATION OF PERSONS BORN OVERSEAS Judaism  %
+358,RELIGIOUS AFFILIATION OF PERSONS BORN OVERSEAS Other Religion  %
+359,RELIGIOUS AFFILIATION OF PERSONS BORN OVERSEAS Secular beliefs and other spiritual beliefs and no religious affiliation  %
+360,RELIGIOUS AFFILIATION OF PERSONS BORN OVERSEAS Religion not stated  %
+361,ENGLISH PROFICIENCY OF PERSONS BORN OVERSEAS Proficient in English  %
+362,ENGLISH PROFICIENCY OF PERSONS BORN OVERSEAS Not proficient in English  %
+363,ENGLISH PROFICIENCY OF PERSONS BORN OVERSEAS English proficiency not stated  %
+364,QUALIFICATIONS OF PERSONS BORN OVERSEAS Postgraduate Degree level  %
+365,QUALIFICATIONS OF PERSONS BORN OVERSEAS Graduate Diploma and Graduate Certificate level  %
+366,QUALIFICATIONS OF PERSONS BORN OVERSEAS Bachelor Degree level  %
+367,QUALIFICATIONS OF PERSONS BORN OVERSEAS Advanced Diploma and Diploma level  %
+368,QUALIFICATIONS OF PERSONS BORN OVERSEAS Certificate level  %
+369,QUALIFICATIONS OF PERSONS BORN OVERSEAS Education not stated  %
+370,OCCUPATION OF PERSONS BORN OVERSEAS Managers  %
+371,OCCUPATION OF PERSONS BORN OVERSEAS Professionals  %
+372,OCCUPATION OF PERSONS BORN OVERSEAS Technicians and trades workers  %
+373,OCCUPATION OF PERSONS BORN OVERSEAS Community and personal service workers  %
+374,OCCUPATION OF PERSONS BORN OVERSEAS Clerical and administrative workers  %
+375,OCCUPATION OF PERSONS BORN OVERSEAS Sales workers  %
+376,OCCUPATION OF PERSONS BORN OVERSEAS Machinery operators and drivers  %
+377,OCCUPATION OF PERSONS BORN OVERSEAS Labourers  %
+378,OCCUPATION OF PERSONS BORN OVERSEAS Occupation not stated  %
+379,LABOUR FORCE STATUS OF PERSONS BORN OVERSEAS Labour Force number  no.
+380,LABOUR FORCE STATUS OF PERSONS BORN OVERSEAS Unemployed number  no.
+381,LABOUR FORCE STATUS OF PERSONS BORN OVERSEAS Participation Rate  %
+382,LABOUR FORCE STATUS OF PERSONS BORN OVERSEAS Unemployment Rate  %
+383,"TOTAL PERSONAL INCOME (WEEKLY) OF PERSONS BORN OVERSEAS, 15 YEARS AND OVER Persons earning $1-$499 per week  %"
+384,"TOTAL PERSONAL INCOME (WEEKLY) OF PERSONS BORN OVERSEAS, 15 YEARS AND OVER Persons earning $500-$999 per week  %"
+385,"TOTAL PERSONAL INCOME (WEEKLY) OF PERSONS BORN OVERSEAS, 15 YEARS AND OVER Persons earning $1000-$1999 per week  %"
+386,"TOTAL PERSONAL INCOME (WEEKLY) OF PERSONS BORN OVERSEAS, 15 YEARS AND OVER Persons earning $2000-$2999 per week  %"
+387,"TOTAL PERSONAL INCOME (WEEKLY) OF PERSONS BORN OVERSEAS, 15 YEARS AND OVER Persons earning $3000 or more per week  %"
+388,"TOTAL PERSONAL INCOME (WEEKLY) OF PERSONS BORN OVERSEAS, 15 YEARS AND OVER Persons earning nil income  %"
+389,"TOTAL PERSONAL INCOME (WEEKLY) OF PERSONS BORN OVERSEAS, 15 YEARS AND OVER Persons with a negative income  %"
+390,"TOTAL PERSONAL INCOME (WEEKLY) OF PERSONS BORN OVERSEAS, 15 YEARS AND OVER Income not stated  %"
+391,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE) Persons 0-14 years %"
+392,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  15-24 years %"
+393,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  25-34 years %"
+394,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  35-44 years %"
+395,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  45-54 years %"
+396,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  55-64 years %"
+397,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  65-74 years %"
+398,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  75-84 years %"
+399,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  85 years and over %"
+400,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE) Males 0-4 years no."
+401,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  5-9 years no."
+402,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  10-14 years no."
+403,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  15-19 years no."
+404,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  20-24 years no."
+405,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  25-29 years no."
+406,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  30-34 years no."
+407,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  35-39 years no."
+408,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  40-44 years no."
+409,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  45-49 years no."
+410,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  50-54 years no."
+411,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  55-59 years no."
+412,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  60-64 years no."
+413,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  65-69 years no."
+414,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  70-74 years no."
+415,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  75-79 years no."
+416,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  80-84 years no."
+417,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  85 years and over no."
+418,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  Total no."
+419,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE) Females 0-4 years no."
+420,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE) Persons 0-4 years no."
+421,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  Working Age Population (15-64 years) %"
+422,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE) Median Age - Usual Residents, ERP at 30 June Males years"
+423,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  Females years"
+424,"ESTIMATED RESIDENT POPULATION (USUAL RESIDENTS, ERP AT 30 JUNE)  Persons years"
+425,BIRTHS AND DEATHS Births  no.
+426,BIRTHS AND DEATHS Total Fertility Rate (per female)  rate
+427,BIRTHS AND DEATHS Deaths  no.
+428,"BIRTHS AND DEATHS Standardised Death Rate (per 1,000 population)  rate"
+429,POPULATION DENSITY Population density  persons/km2
+430,ABORIGINAL AND TORRES STRAIT ISLANDER PEOPLES Proportion of total population  %
+431,"OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in Oceania, Antarctica (excl. Australia)  %"
+432,OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in North-West Europe  %
+433,OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in Southern & Eastern Europe  %
+434,"OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in North Africa, Middle East  %"
+435,OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in South-East Asia  %
+436,OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in North-East Asia  %
+437,"OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in Southern, Central Asia  %"
+438,OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in Americas  %
+439,OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Born in Sub-Saharan Africa  %
+440,OVERSEAS BORN POPULATION (PROPORTION OF TOTAL POPULATION) Total Born Overseas  %
+441,RELIGIOUS AFFILIATION Buddhism   %
+442,RELIGIOUS AFFILIATION Christianity   %
+443,RELIGIOUS AFFILIATION Hinduism   %
+444,RELIGIOUS AFFILIATION Islam  %
+445,RELIGIOUS AFFILIATION Judaism   %
+446,RELIGIOUS AFFILIATION Other Religions   %
+447,"RELIGIOUS AFFILIATION Secular Beliefs, Other Spiritual Beliefs and No Religious Affiliation  %"
+448,RELIGIOUS AFFILIATION Inadequately described or not stated   %
+449,AUSTRALIAN CITIZENSHIP Australian citizen  %
+450,AUSTRALIAN CITIZENSHIP Not an Australian citizen  %
+451,AUSTRALIAN CITIZENSHIP Australian Citizenship - Not stated  %
+452,SPEAKS A LANGUAGE OTHER THAN ENGLISH AT HOME Proportion of total population  %
+453,lat
+454,long
