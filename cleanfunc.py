@@ -12,6 +12,8 @@ from sklearn.ensemble import RandomForestRegressor
 import eli5
 import re
 import geocoder
+import operator
+
 
 
 nb_path = os.getcwd()
@@ -232,7 +234,7 @@ def buildlatlng(df):
     latlng = pd.DataFrame({'lat':lat, 'long':lng}, index = X.index.levels[1].tolist())
     return latlng
 
-def feature_impact_plot(model, X_train, n_features, y_label):
+def feature_impact_plot(model, X, n_features, y_label):
     '''
     Takes a trained model and training dataset and synthesises the impacts of the top n features
     to show their relationship to the response vector (i.e. how a change in the feature changes
@@ -246,26 +248,26 @@ def feature_impact_plot(model, X_train, n_features, y_label):
     '''
     # Display the n most important features
     indices = np.argsort(model.feature_importances_)[::-1]
-    columns = X_train.columns.values[indices[:n_features]]
+    columns = X.columns.values[indices[:n_features]]
     
     ### THIS NEEDS UPDATING to integrate subplot mechanisms for line charts
     #simulations = [[]] #deprecated
     sim_var = [[]]
     # For top 5 features
     for col in columns:
-        base_pred = best_rf.predict(X.drop(drop_cols,axis=1))
+        base_pred = model.predict(X)
         #add percentiles of base predictions to a df for use in reporting
         base_percentiles = [np.percentile(base_pred, pc) for pc in range(0,101,25)]
         #simulations.append(['base',col]+base_percentiles) #deprecated
 
         # Create new predictions based on tweaking the parameter
         # copy X, resetting values to align to the base information through different iterations
-        df_copy = X_train.copy()
+        df_copy = X.copy()
 
         for val in np.arange(-X[col].std(), X[col].std(), X[col].std()/50):
             df_copy[col] = X[col] + val
             # add new predictions based on changed database
-            predictions = best_rf.predict(df_copy)
+            predictions = model.predict(df_copy)
             #add percentiles of these predictions to a df for use in reporting
             percentiles = [np.percentile(predictions, pc) for pc in range(0,101,25)]
             #simulations.append([val, col] + percentiles) #deprecated
@@ -282,16 +284,12 @@ def feature_impact_plot(model, X_train, n_features, y_label):
     fig, axs = plt.subplots(nrows = (int(n_features/num_cols) + int(n_features%num_cols)),
                             ncols = num_cols, sharey = True, figsize=(15,15))
 
-    nlines = 1
 
     for i in range(axs.shape[0]*axs.shape[1]):
         if i < len(columns):
-            axs[int(i/num_cols),int(i%num_cols)].plot(df_predictions[(df_predictions['Feature'] == columns[i]) & 
-                                    (df_predictions['Value'] != 'base')]['Value'],
-                     df_predictions[(df_predictions['Feature'] == columns[i]) & 
-                                    (df_predictions['Value'] != 'base')][50])
-            axs[int(i/num_cols),i%num_cols].set_title("\n".join(wrap(columns[i], int(100/num_cols))))
-            nlines = max(nlines,axs[int(i/num_cols),int(i%num_cols)].get_title().count('\n'))
+            axs[int(i/num_cols),int(i%num_cols)].plot(df_predictions[df_predictions['Feature'] == columns[i]]['Value'],
+                                    df_predictions[df_predictions['Feature'] == columns[i]][50])
+            axs[int(i/num_cols),int(i%num_cols)].set_title("\n".join(wrap(columns[i], int(100/num_cols))))
 
             #format the y-axis as %
             if int(i%num_cols) == 0:
