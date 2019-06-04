@@ -231,3 +231,76 @@ def buildlatlng(df):
 
     latlng = pd.DataFrame({'lat':lat, 'long':lng}, index = X.index.levels[1].tolist())
     return latlng
+
+def feature_impact_plot(model, X_train, n_features, y_label):
+    '''
+    Takes a trained model and training dataset and synthesises the impacts of the top n features
+    to show their relationship to the response vector (i.e. how a change in the feature changes
+    the prediction). Returns n plots showing the variance for min, max, median, 1Q and 3Q.
+    
+    INPUTS
+    model = trained supervised learning model
+    X_train = feature set the training was completed using
+    n_features = top n features you would like to plot
+    y_label - description of response variable for axis labelling
+    '''
+    # Display the n most important features
+    indices = np.argsort(model.feature_importances_)[::-1]
+    columns = X_train.columns.values[indices[:n_features]]
+    
+    ### THIS NEEDS UPDATING to integrate subplot mechanisms for line charts
+    #simulations = [[]] #deprecated
+    sim_var = [[]]
+    # For top 5 features
+    for col in columns:
+        base_pred = best_rf.predict(X.drop(drop_cols,axis=1))
+        #add percentiles of base predictions to a df for use in reporting
+        base_percentiles = [np.percentile(base_pred, pc) for pc in range(0,101,25)]
+        #simulations.append(['base',col]+base_percentiles) #deprecated
+
+        # Create new predictions based on tweaking the parameter
+        # copy X, resetting values to align to the base information through different iterations
+        df_copy = X_train.copy()
+
+        for val in np.arange(-X[col].std(), X[col].std(), X[col].std()/50):
+            df_copy[col] = X[col] + val
+            # add new predictions based on changed database
+            predictions = best_rf.predict(df_copy)
+            #add percentiles of these predictions to a df for use in reporting
+            percentiles = [np.percentile(predictions, pc) for pc in range(0,101,25)]
+            #simulations.append([val, col] + percentiles) #deprecated
+            # add variances between percentiles of these predictions and the base prediction to a df for use in reporting
+            percentiles = list(map(operator.sub, percentiles, base_percentiles))
+            percentiles = list(map(operator.truediv, percentiles, base_percentiles))
+            sim_var.append([val, col] + percentiles)
+
+    # Plot a line chart based on the "describe()" function applied to this database
+    # Showing percentiles (min, 25th, 50th, 75th, max) over the series of values
+    df_predictions = pd.DataFrame(sim_var,columns = ['Value','Feature']+[0,25,50,75,100])
+    num_cols = 2
+
+    fig, axs = plt.subplots(nrows = (int(n_features/num_cols) + int(n_features%num_cols)),
+                            ncols = num_cols, sharey = True, figsize=(15,15))
+
+    nlines = 1
+
+    for i in range(axs.shape[0]*axs.shape[1]):
+        if i < len(columns):
+            axs[int(i/num_cols),int(i%num_cols)].plot(df_predictions[(df_predictions['Feature'] == columns[i]) & 
+                                    (df_predictions['Value'] != 'base')]['Value'],
+                     df_predictions[(df_predictions['Feature'] == columns[i]) & 
+                                    (df_predictions['Value'] != 'base')][50])
+            axs[int(i/num_cols),i%num_cols].set_title("\n".join(wrap(columns[i], int(100/num_cols))))
+            nlines = max(nlines,axs[int(i/num_cols),int(i%num_cols)].get_title().count('\n'))
+
+            #format the y-axis as %
+            if int(i%num_cols) == 0:
+                vals = axs[int(i/num_cols),int(i%num_cols)].get_yticks()
+                axs[int(i/num_cols),int(i%num_cols)].set_yticklabels(['{:,.2%}'.format(x) for x in vals])
+                axs[int(i/num_cols),int(i%num_cols)].set_ylabel('% change to {}'.format(y_label))
+
+        else:
+            axs[int(i/num_cols),int(i%num_cols)].axis('off')
+
+    plt.tight_layout()    
+    plt.show()
