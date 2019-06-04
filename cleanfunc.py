@@ -13,9 +13,53 @@ import eli5
 import re
 import geocoder
 import operator
+from bokeh.models import HoverTool
+from bokeh.plotting import figure, output_notebook, show, ColumnDataSource
 
 nb_path = os.getcwd()
 nb_path
+
+def evaluate_model(model, X_train, X_test, y_train, y_test):
+    y_pred = model.predict(X_test)
+    y_train_pred = model.predict(X_train)
+
+    output_notebook()
+
+    hover = HoverTool()
+    test_source = ColumnDataSource(data=dict(
+        x=y_test,
+        y=y_pred,
+        desc=y_test.index,
+    ))
+
+    train_source = ColumnDataSource(data=dict(
+        x=y_train,
+        y=y_train_pred,
+        desc=y_train.index,
+    ))
+
+    p = figure(plot_width = 600, plot_height = 400, x_axis_label = 'Acutal', y_axis_label = 'Prediction')
+
+    p.circle('x', 'y', size=20, color = 'navy', alpha = 0.5, source = test_source, legend = 'Test Data')
+    p.circle('x', 'y', size=10, color = 'red', alpha = 0.5, source = train_source, legend = 'Train Data')
+    p.line([0,max(y_test)],[0, max(y_test)], legend = 'line of perfect fit')
+    hover.tooltips = [
+        ("index", '$index'),
+        ("(x,y)", "($x, $y)"),
+        ("desc", "@desc"),
+    ]
+
+    p.tools.append(hover)
+    p.legend.location = 'top_left'
+    p.legend.click_policy="hide"
+    p.toolbar.logo = None
+    p.toolbar_location = None
+    show(p)
+    print("Train data R2 score: {}".format(r2_score(y_train, y_train_pred)))
+    print("Test data R2 score: {}".format(r2_score(y_test, y_pred)))
+    return y_pred, y_train_pred
+
+
 def sort_series_abs(S):
     'Takes a pandas Series object and returns the series sorted by absolute value'
     temp_df = pd.DataFrame(S)
