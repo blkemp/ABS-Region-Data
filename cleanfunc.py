@@ -276,7 +276,7 @@ def buildlatlng(df):
     latlng = pd.DataFrame({'lat':lat, 'long':lng}, index = X.index.levels[1].tolist())
     return latlng
 
-def feature_impact_plot(model, X, n_features, y_label):
+def feature_impact_plot(model, X_train, n_features, y_label):
     '''
     Takes a trained model and training dataset and synthesises the impacts of the top n features
     to show their relationship to the response vector (i.e. how a change in the feature changes
@@ -294,7 +294,7 @@ def feature_impact_plot(model, X, n_features, y_label):
     '''
     # Display the n most important features
     indices = np.argsort(model.feature_importances_)[::-1]
-    columns = X.columns.values[indices[:n_features]]
+    columns = X_train.columns.values[indices[:n_features]]
     
     # Create a list object to capture the simulated prediction % variances to later turn into a DataFrame
     sim_var = [[]]
@@ -306,7 +306,7 @@ def feature_impact_plot(model, X, n_features, y_label):
 
         # Create new predictions based on tweaking the parameter
         # copy X, resetting values to align to the base information through different iterations
-        df_copy = X.copy()
+        df_copy = X_train.copy()
 
         for val in np.arange(-X_train[col].std(), X_train[col].std(), X_train[col].std()/50):
             df_copy[col] = X_train[col] + val
