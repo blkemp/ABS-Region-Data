@@ -14,6 +14,8 @@ All files are based on the ASGS (Australian Statistical Geography Standard) loca
 # Summary of findings
 By applying machine learning techniques on the merged dataset, I find a fairly robust Random Forest model (r2 score of 0.745) which demostrates the main predictors of household installation of solar panels are largely inversely tied to how "urban" a given statistical region is, as reflected by: types of employment, population density, types of household buildings and distance of commute. I then look at growth trends of solar installations when splitting the regions quartiles defined by population density which show continued (and accelerating) high growth in solar installations in the 'non-urban' regions which has implications at the entreprenuerial, public sector and energy sector levels.
 
+A more accessible write-up can be found in my Medium blog post published [here](https://medium.com/@brian.l.kemp/the-5-keys-to-a-great-solar-demographic-581d1b07a215).
+
 # System Requirements:
 All exploration done on this dataset is currently being undertaking using Jupyter Notebooks using Python 3.7 with the below modules (list will surely expand over time):
 * NumPy
